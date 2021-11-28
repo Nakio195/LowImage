@@ -23,10 +23,6 @@ Color::Color(std::string color)
 
             if(r.size() != 0 && g.size() != 0 && b.size() != 0)
             {
-                std::cout << r << std::endl;
-                std::cout << g << std::endl;
-                std::cout << b << std::endl;
-
                 mR = std::stoi(r);
                 mG = std::stoi(g);
                 mB = std::stoi(b);
